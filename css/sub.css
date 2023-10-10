@@ -1,0 +1,118 @@
+.subMain {
+    width: 94%;
+    height: 50vw;
+    margin: 10px auto;
+    border-radius: 15px;
+    background-image: url(../img/sub_main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 2vh;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    text-align: center;
+    padding-top: 2vw;
+    line-height: 50vw;
+}
+section {
+    margin-top: 10vw;
+}
+.good .center {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 10vh auto;
+}
+.good .center > div {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.good .center div .photo {
+    margin: 0 auto;
+    width: 95%;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+.good .center div .des {
+    margin: 8vw auto;
+    padding: 5vw;
+}
+.good .center div .des .icon {
+    margin-top: 2vh;
+    margin-left: 55vw;
+    width: 40%;
+    height: 9vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.good .center div .des .i1 {
+    background-image: url(../img/but1.png);
+}
+.good .center div .des .i2 {
+    background-image: url(../img/but2.png);
+}
+.good .center div .des .i3 {
+    background-image: url(../img/but3.png);
+}
+.good .center div .des .i4 {
+    background-image: url(../img/but4.png);
+}
+
+.good .center .good1 .photo {
+    background-image: url(../img/sub1.jpg);
+}
+.good .center .good2 .photo {
+    background-image: url(../img/sub2.jpg);
+}
+.good .center .good3 .photo {
+    background-image: url(../img/sub3.jpg);
+}
+.good .center .good4 .photo {
+    background-image: url(../img/sub4.jpg);
+}
+
+/* 미디어쿼리 - PC버전 and다음 띄어쓰기! */
+@media screen and (min-width:1280px) {
+    .good {
+        margin-top: 3vw;
+    }
+    .good .center {
+        display: flex;
+        flex-flow: column nowrap;
+        height: auto;
+    }
+    .good .center > div {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .good .center div .photo {
+        width: 22vw;
+        height: 26vw;
+    }
+    .good .center div .des {
+        margin: 0 auto;
+        width: 34vw;
+        height: 30vw;
+        padding: 0.5vw;
+    }
+    .subMain {
+        width: 98%;
+        height: 40vw;
+        font-size: 1.5vw;
+        line-height: 40vw;
+        text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+    .good .center div .des .icon {
+        margin-top: 1vw;
+        margin-left: 20vw;
+        width: 12vw;
+        height: 11vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

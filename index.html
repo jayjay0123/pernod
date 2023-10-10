@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- swiper.css cdn으로 연결 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <!-- 사용자 정의 css연결 -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- 파비콘(shortcut icon) 넣기 -->
+    <link rel="shortcut icon" href="img/logo/favicon2.png">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/code.jquery.com_jquery-3.7.1.js"></script>
+    <!-- swiper.js cdn으로 연결 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- gsap 플러그인 연결 -->
+    <script src="js/gsap.min.js"></script>
+    <!-- 사용자 정의 js연결 -->
+    <script src="js/main.js"></script>
+
+    <title>페르노리카코리아</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="center">
+                <!-- 로고 -->
+                <div class="logo">
+                    <a href="index.html">  </a>
+                </div>
+                <!-- 네비게이션 -->
+                <nav>
+                <ul>
+                    <li>
+                        <a href="#">회사소개 <span>COMPANY</span></a>
+                        <ul class="sub">
+                            <li><a href="#">페르노리카 코리아</a></li>
+                            <li><a href="#">비전</a></li>
+                            <li><a href="#">문화와 가치</a></li>
+                            <li><a href="sub.php">지속가능책임경영</a></li>
+                            <li><a href="#">문의 및 채용</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">브랜드 <span>BRANDS</span></a>
+                        <ul class="sub">
+                            <li><a href="#">All</a></li>
+                            <li><a href="#">Whisky</a></li>
+                            <li><a href="#">Spirits</a></li>
+                            <li><a href="#">Wine & Champagne</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">새로운 소식 <span>NEWS</span></a>
+                        <ul class="sub">
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">사회공헌 <span>CSR</span></a>
+                        <ul class="sub">
+                            <li><a href="#">사회공헌의 날</a></li>
+                            <li><a href="#">국악 장학사업</a></li>
+                            <li><a href="#">페르노리카 재단</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </nav>
+                <!-- 다국어지원, 메뉴버튼 -->
+                <div class="top_menu">
+                    <ul>
+                        <li><a href="#">
+                            <svg aria-labelledby="languageIconTitle" color="#2329D6" class="lang" fill="none" height="100%" role="img" stroke="#ffffff" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg"><title id="languageIconTitle"/><circle cx="12" cy="12" r="10"/><path d="M12,22 C14.6666667,19.5757576 16,16.2424242 16,12 C16,7.75757576 14.6666667,4.42424242 12,2 C9.33333333,4.42424242 8,7.75757576 8,12 C8,16.2424242 9.33333333,19.5757576 12,22 Z" stroke-linecap="round"/><path d="M2.5 9L21.5 9M2.5 15L21.5 15" stroke-linecap="round"/></svg>
+                        </a></li>
+                        <li><a href="#" class="menu_btn">
+                            <svg style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path class="st0" d="M4.949,6.996h22.192 M4.949,15.996h22.192 M4.949,24.996h22.192"/></svg>                            
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 서브메뉴 배경 -->
+            <div class="sub_bg"></div>
+        </header>
+        <section class="sec1">
+            <!-- 메인 슬라이드 swiper plugin -->
+            <!-- Slider main container -->
+            <div class="swiper main">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide s1">
+                    <h1>앱솔루트 보드카</h1>
+                    <p>스티키 몬스터랩과 콜라보해 랜드마크가 될 '앱솔루트 그라운드' 팝업 스토어 오픈</p>
+                </div>
+                <div class="swiper-slide s2">
+                    <h1>페르노리카 코리아</h1>
+                    <p>성수에 이어 더현대 서울에 두번째 '더 그린리벳 위스키 후르츠' 팝업 스토어 오픈</p>
+                </div>
+                <div class="swiper-slide s3">
+                    <h1>페르노리카 코리아</h1>
+                    <p>페리에 주에 샴페인 X 미구엘 슈발리에 협업한 아트 전시회 '하우스 오브 원더 2023' 개최</p>
+                </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="sec2 scrollSet">
+            <div class="center">
+                <div class="korea ani firstAni">
+                    <h2>페르노리카 코리아</h2>
+                    <hr>
+                    <p> 페르노리카 코리아(Pernod Ricard Korea)는 
+                        세계적인 프랑스 주류기업 페르노리카(Pernod Ricard) 
+                        그룹의 한국 법인으로 위스키, 스피릿, 리큐르, 샴페인, 와인 등 
+                        업계에서 가장 다양한 브랜드 포트폴리오를 보유하고 있다.</p>
+                    <button type="button"><a href="#">자세히 보기</a></button>
+                </div>
+                <div class="group ani secondAni">
+                    <h2>페르노리카 그룹</h2>
+                    <hr>
+                    <span>Créateurs de Convivialité<br> (유쾌함을 만드는 사람들)</span>
+                    <p> Convivialité(유쾌함)는 페르노리카 기업의 존재의 이유이자
+                        기업 커뮤니케이션의 핵심이 되는 가치이다.</p>
+                </div>
+            </div>
+        </section>
+        <section class="sec3 scrollSet">
+            <div class="center">
+                <div class="content ani firstAni">
+                    <h2>페르노리카 코리아</h2>
+                    <p>신제품을 소개합니다!</p>
+                    <button type="button">
+                        <a href="#">더 알아보기</a>
+                    </button>
+                </div>
+                <div class="swiper new ani secondAni">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image img1"></div>
+                            <p>시바스(CHIVAS),힙합 씬 대표 사이먼 도미닉과 협업을 통한 한정판 콜라보레이션 세트 출시</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img2"></div>
+                            <p>'발렌타인 21년 아티스트 에디션' 면세점 단독 출시</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img3"></div>
+                            <p>'로얄 살루트 21년 조드푸르 촐로 에디션' 출시</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img4"></div>
+                            <p>'발렌타인 17년 아티스트 에디션3' 한정 출시</p>
+                        </div>
+                    </div>
+                    <!-- pagination progress -->
+                    <div class="swiper-pagination"></div>
+                </div><!--swiper-->
+                <div class="swiper-button-next ani ani2"></div>
+                <div class="swiper-button-prev ani ani2"></div>    
+            </div>
+        </section>
+        <section class="sec4 scrollSet">
+            <div class="center">
+                <div class="content ani firstAni">
+                    <h2>지속가능 책임경영 (S&R)</h2>
+                    <p>페르노리카 그룹은 지속가능 책임경영 실천을 위해 UN의 지속가능개발 목표(SDGs)를 바탕으로 개발한 2030 지속가능 책임경영 로드맵(S&R Roadmap) ‘Good Times from a Good Place’ 을 발표하고 사업 전반에서 실천하고 있다.</p>
+                </div>
+                <div class="swiper save ani secondAni">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image img1"></div>
+                            <h3>자연환경보존</h3>
+                            <p>Nurturing Terroir</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img2"></div>
+                            <h3>인간존중</h3>
+                            <p>Valuing People</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img3"></div>
+                            <h3>자원 선순환</h3>
+                            <p>Circular Making</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image img4"></div>
+                            <h3>책임 있는 호스팅</h3>
+                            <p>Responsible Hosting</p>
+                        </div>
+                    </div><!--swiper-wrapper-->
+                    <!-- pagination progress -->
+                    <div class="swiper-pagination"></div>
+                </div><!--swiper-->
+                <div class="swiper-button-next ani ani2"></div>
+                <div class="swiper-button-prev ani ani2"></div>    
+            </div>
+        </section>
+        <section class="sec5 scrollSet">
+            <div class="center">
+                <div class="content ani firstAni">
+                    <h2>페르노리카 그룹</h2>
+                    <p>페르노리카는 ‘페르노’와 ‘리카’의 합병으로 1975년 설립된 이래, 유기적인 성장과 인수를 통해 지속적 성장을 거듭해왔다.</p>
+                    <div class="earth">
+                        <img src="img/icon/earth_icon.png" alt="earth">
+                    </div>
+                </div>
+                <div class="statis ani secondAni" id="count-area">
+                    <ul>
+                        <li>
+                            <img src="img/icon/icon1.png" alt="statis">
+                            <p>전 세계 Wine & Spirits 시장</p>
+                            <div class="count">
+                                <span class="num" id="count-item1"></span>
+                                <b>위</b>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/icon/icon2.png" alt="statis">
+                            <p>전 세계 지사수</p>
+                            <div class="count">
+                                <span class="num" id="count-item2"></span>
+                                <b>개 지사</b>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/icon/icon3.png" alt="statis">
+                            <p>브랜드 유통 나라 수</p>
+                            <div class="count">
+                                <span span class="num" id="count-item3"></span>
+                                <b>여 개</b>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/icon/4icon.png" alt="statis">
+                            <p>전 세계 직원수</p>
+                            <div class="count">
+                                <span span class="num" id="count-item4"></span>
+                                <b>여 명</b>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sec6 scrollSet">
+            <div class="center">
+                <div class="content ani firstAni">
+                    <h2>브랜드 소개</h2>
+                    <p>프랑스에 글로벌 본사를 두고 있는 페르노리카 그룹은 증류주 부문에서 발렌타인(Ballantine’s),
+                    시바스 리갈(Chivas Regal), 로얄 살루트(Royal Salute) 등의 프리미엄 위스키,
+                    프리미엄 보드카 1위인 앱솔루트 보드카(Absolut Vodka)와 같은 화이트 스피릿과 더불어,
+                    프리미엄 샴페인 페리에 주에(Perrier Jouët)와 멈(G.H.Mumm) 등 세계적 명성의 브랜드들을
+                    중심으로 강력하고 균형 잡힌 브랜드 포트폴리오를 구축하고 있다.
+                    </p>
+                    <button type="button">
+                        <a href="#">자세히 보기</a>
+                    </button>
+                </div>
+                <div class="online">
+                    <ul>
+                        <li class="on1 ani ani1"><a href="#"></a></li>
+                        <li class="on2 ani ani2"><a href="#"></a></li>
+                        <li class="on3 ani ani3"><a href="#"></a></li>
+                        <li class="on4 ani ani4"><a href="#"></a></li>
+                        <li class="on5 ani ani5"><a href="#"></a></li>
+                        <li class="on6 ani ani6"><a href="#"></a></li>
+                        <li class="on7 ani ani7"><a href="#"></a></li>
+                        <li class="on8 ani ani8"><a href="#"></a></li>
+                        <li class="on9 ani ani9"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="center">
+                <div class="footer1">
+                    <div class="f_logo">
+                        <img src="img/logo/f_logo2.png" alt="logo">
+                    </div> 
+                    <div class="info">
+                    <ul>
+                        <li><a href="#">DRINK RESPONSIBLY &emsp;|</a></li>
+                        <li><a href="#">사용자제작 콘텐츠 정책 (UGC Policy) &emsp;|</a></li>
+                        <li><a href="#">개인정보처리방침 &emsp;|</a></li>
+                        <li><a href="#">Speak Up - Pernod Ricard Ethics Line</a></li>
+                    </ul>
+                    </div>
+                    <address>
+                    (주)페르노리카코리아 주소: 경기도 이천시 마장면 서이천로 91 | 대표이사: 프란츠 브루노 디디에 호튼 | 사업자등록번호: 120-81-64461<br>
+                    </address>
+                    <br>
+                    <p>경고: 지나친 음주는 뇌졸중, 기억력 손상이나 치매를 유발합니다. 임신 중 음주는 기형아 출생 위험을 높입니다. 모든 콘텐츠는 만 19세 이상의 성인에게만 이용 및 공유 가능합니다. 
+                        <br>이 홈페이지는 페르노리카코리아 회사 및 제품 홍보를 위한 사이트 입니다. </p>
+                </div><!--footer1-->
+                <div class="footer2">
+                    <div class="family_site">
+                        <a href="#">Brand Site</a>
+                        <div class="family_list">
+                            <ul>
+                                <li><a href="#">Absolut Vodka</a></li>
+                                <li><a href="#">Ballantine</a></li>
+                                <li><a href="#">Royal Salute</a></li>
+                                <li><a href="#">Jameson</a></li>
+                                <li><a href="#">Malibu</a></li>
+                                <li><a href="#">Perrier-Jouët</a></li>
+                                <li><a href="#">Others</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#">
+                                <img src="img/icon/facebook_icon.png" alt="f">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/icon/instagram_icon.png" alt="i">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/icon/twitter_icon.png" alt="t">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/icon/youtuble_icon.png" alt="y">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/icon/naver.png" alt="n">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- top button -->
+    <div class="top">
+        <a href="#">
+            <img src="img/icon/arrow_up_icon.png" alt="up arrow">
+        </a>
+    </div>
+</body>
+</html>
